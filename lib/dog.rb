@@ -7,6 +7,7 @@ attr_reader :name
   def initialize(name)
     @name = name
     @@all << self
+    self.save
   end
   
   def self.all
@@ -20,5 +21,7 @@ attr_reader :name
        puts dog.name
      end
    end
+   def self.save
+     @@all <<
    
 end
