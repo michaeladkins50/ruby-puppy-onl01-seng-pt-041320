@@ -16,7 +16,7 @@ attr_reader :name
       @@all.clear
     end
    def self.print_all
-     @@all.each do |name|
+     @@all.each do |data, name|
        puts "#{name}"
      end
    end
