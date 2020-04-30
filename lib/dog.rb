@@ -20,7 +20,7 @@ attr_reader :name
        puts dog.name
      end
    end
-   def @name.save
-     @@all << @name
+   def save(name)
+     @@all << name
    end
 end
