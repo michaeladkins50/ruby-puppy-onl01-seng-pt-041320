@@ -1,6 +1,6 @@
 class Dog # Add your code here
 
-@@all = []
+@@all= []
 
 attr_reader :name
 
