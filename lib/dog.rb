@@ -13,7 +13,7 @@ attr_reader :name
     @@all
   end
     def clear_all
-      @@all.clear
+      @@all= []
     end
   
 end
