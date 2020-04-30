@@ -17,7 +17,7 @@ attr_reader :name
     end
    def self.print_all
      @@all.each do |name|
-       puts dog.name
+       puts self.name
      end
    end
 end
