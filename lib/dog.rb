@@ -6,7 +6,7 @@ attr_reader :name
 
   def initialize(name)
     @name = name
-    @@all << self
+    self.save
   end
   
   def self.all
